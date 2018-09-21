@@ -19,12 +19,16 @@ cd `dirname $0`
 
 DEFAULT_IMG_DIR="docs/images/"
 cp d2json.js ${DEFAULT_IMG_DIR}d2json.js
+cp d2StringTable.js ${DEFAULT_IMG_DIR}d2StringTable.js
 cd ${DEFAULT_IMG_DIR}
 find . -name ".DS_Store" | xargs rm
 node d2json > default_market_items.json
+node d2StringTable > marketItems.strings
 cd -
 mv ${DEFAULT_IMG_DIR}default_market_items.json default_market_items.json
+mv ${DEFAULT_IMG_DIR}marketItems.strings workspaces/marketItems.strings
 rm ${DEFAULT_IMG_DIR}d2json.js
+rm ${DEFAULT_IMG_DIR}d2StringTable.js
 
 remove_unnecessaries
 
