@@ -1,6 +1,4 @@
 d2StringTable = "D2stringtable";
-d2json = "D2json";
-default_market_items = "Default Market Items";
 marketItems = "Marketitems";
 cheese = "Cheese";
 milk = "Milk";
