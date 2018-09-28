@@ -8,7 +8,7 @@ declare -a gabages=(
 function remove_unnecessaries () {
     for ((i = 0; i < ${#gabages[@]}; i++)) {
         NAME_STR=${gabages[i]%.*}
-        sed -e "s/{\"name\":\"${NAME_STR}\",\"section\":\".\",\"imageUrl\":\"https\:\/\/watarusuzuki.github.io\/MealDock\/images\/.\/${gabages[i]}\",\"timeStamp\":0},//g" ./default_market_items.json > ./data-new.json
+        sed -e "s/{\"name\":\"${NAME_STR}\",\"section\":\".\",\"imageUrl\":\"https\:\/\/watarusuzuki.github.io\/MealDock\/images\/.\/${gabages[i]}\",\"count\":1,\"timeStamp\":0},//g" ./default_market_items.json > ./data-new.json
 
         rm default_market_items.json
         mv data-new.json default_market_items.json
@@ -21,9 +21,9 @@ DEFAULT_IMG_DIR="docs/images/"
 cp d2StringTable.js ${DEFAULT_IMG_DIR}d2StringTable.js
 cd ${DEFAULT_IMG_DIR}
 find . -name ".DS_Store" | xargs rm
-node d2StringTable > marketItems.strings
+node d2StringTable > MarketItems.strings
 cd -
-mv ${DEFAULT_IMG_DIR}marketItems.strings workspaces/marketItems.strings
+mv ${DEFAULT_IMG_DIR}MarketItems.strings workspaces/MarketItems.strings
 rm ${DEFAULT_IMG_DIR}d2StringTable.js
 
 cp d2json.js ${DEFAULT_IMG_DIR}d2json.js
