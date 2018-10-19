@@ -36,7 +36,7 @@ var walk = function(p, callback){
 			results.push({
 				name: path.basename(file, path.extname(file)),
 				section: path.dirname(file),
-				imageUrl: "https://watarusuzuki.github.io/MealDock/images/" + dir_version + "/" + path.dirname(file) + "/" + path.basename(file),
+				imageUrl: `https://watarusuzuki.github.io/MealDock/${dir_version}/images/` + path.dirname(file) + "/" + path.basename(file),
 				count: 1, timeStamp: 0
 			});
 			if (!--pending) callback(null, results);
