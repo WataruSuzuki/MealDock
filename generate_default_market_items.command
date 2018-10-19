@@ -36,4 +36,4 @@ rm ${DEFAULT_IMG_DIR}d2json.js
 
 remove_unnecessaries
 
-mv default_market_items.json docs/default_market_items.json
+mv default_market_items.json ${DEFAULT_IMG_DIR}default_market_items.json
