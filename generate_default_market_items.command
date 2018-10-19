@@ -1,5 +1,5 @@
 #!/bin/sh
-
+VERSION=1.0.0
 declare -a gabages=(
     default_market_items.json
     d2json.js
@@ -8,7 +8,7 @@ declare -a gabages=(
 function remove_unnecessaries () {
     for ((i = 0; i < ${#gabages[@]}; i++)) {
         NAME_STR=${gabages[i]%.*}
-        sed -e "s/{\"name\":\"${NAME_STR}\",\"section\":\".\",\"imageUrl\":\"https\:\/\/watarusuzuki.github.io\/MealDock\/images\/.\/${gabages[i]}\",\"count\":1,\"timeStamp\":0},//g" ./default_market_items.json > ./data-new.json
+        sed -e "s/{\"name\":\"${NAME_STR}\",\"section\":\".\",\"imageUrl\":\"https\:\/\/watarusuzuki.github.io\/MealDock\/images\/${VERSION}\/.\/${gabages[i]}\",\"count\":1,\"timeStamp\":0},//g" ./default_market_items.json > ./data-new.json
 
         rm default_market_items.json
         mv data-new.json default_market_items.json
@@ -17,7 +17,7 @@ function remove_unnecessaries () {
 
 cd `dirname $0`
 
-DEFAULT_IMG_DIR="docs/images/"
+DEFAULT_IMG_DIR="docs/images/${VERSION}/"
 cp d2StringTable.js ${DEFAULT_IMG_DIR}d2StringTable.js
 cd ${DEFAULT_IMG_DIR}
 find . -name ".DS_Store" | xargs rm
