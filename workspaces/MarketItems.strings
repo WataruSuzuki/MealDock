@@ -1,6 +1,5 @@
 MarketItems = "Marketitems";
 d2StringTable = "D2stringtable";
-default_market_items = "Default Market Items";
 bread = "Bread";
 corn = "Corn";
 macaroni = "Macaroni";

@@ -2,7 +2,7 @@
  * example
  * $ node filelist2json.js > data.json
  */
-var dir_version = "1.0.0"
+var dir_version = "v1"
 var fs = require("fs")
 	, path = require("path")
 	, dir = process.argv[2] || '.';

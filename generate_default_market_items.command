@@ -1,5 +1,5 @@
 #!/bin/sh
-VERSION=1.0.0
+VERSION="v1"
 declare -a gabages=(
     default_market_items.json
     d2json.js
