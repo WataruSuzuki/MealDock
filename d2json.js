@@ -37,7 +37,7 @@ var walk = function(p, callback){
 				name: path.basename(file, path.extname(file)),
 				section: path.dirname(file),
 				imageUrl: `https://watarusuzuki.github.io/MealDock/${dir_version}/images/` + path.dirname(file) + "/" + path.basename(file),
-				count: 1, timeStamp: 0
+				count: 0, timeStamp: 0
 			});
 			if (!--pending) callback(null, results);
 		});
