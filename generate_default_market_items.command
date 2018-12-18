@@ -24,6 +24,7 @@ cd ${DEFAULT_IMG_DIR}
 find . -name ".DS_Store" | xargs rm
 node d2StringTable > MarketItems.strings
 cd -
+sed -e 's/";//g' -e s/' = "'/$'\t'/g ./${DEFAULT_IMG_DIR}MarketItems.strings > ./workspaces/localizable-base.txt
 mv ${DEFAULT_IMG_DIR}MarketItems.strings workspaces/MarketItems.strings
 rm ${DEFAULT_IMG_DIR}d2StringTable.js
 
