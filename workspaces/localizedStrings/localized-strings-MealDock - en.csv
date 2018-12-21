@@ -1,0 +1,169 @@
+,,
+"key=
+",gochi_sou_sama,I'm Done
+"key=
+",dishes,Dishes
+"key=
+",inFridgeFoods,In Fridge Foods
+"key=
+",cartedFoods,Carted Foods
+"key=
+",errandFoods,Errand Foods
+"key=
+",addNewMarketItem,Add new Market Item
+"key=
+",editCustomItem,Delete custom market item
+"key=
+",select,Select
+"key=
+",no_dishes,No Dishes
+"key=
+",no_foods,No Foods
+"key=
+",msg_add_dishes,Let's cook & add dish
+"key=
+",msg_add_foods,Let's start to add foods
+"key=
+",signIn,Sign in
+"key=
+",account,Account
+"key=
+",userInfo,User Information
+"key=
+",groupInfo,Group Information
+"key=
+",signOut,Sign out
+"key=
+",deleteAccount,Delete account
+"key=
+",noFood,No Foods
+"key=
+",in_packed_list,in packed list.
+"key=
+",title,Title
+"key=
+",description,Description
+"key=
+",harvest,Harvest
+"key=
+",name,Name
+"key=
+",type,Type
+"key=
+",imageUrl,Image URL
+"key=
+",settings,Settings
+"key=
+",editAccount,Edit Account
+"key=
+",deleteAccount,Delete Account
+"key=
+",displayName,Display name
+"key=
+",email,Email
+"key=
+",password,Password
+"key=
+",changeDisplayName,Change display name
+"key=
+",changeEmail,Change email
+"key=
+",resetPassword,Reset password
+"key=
+",receive_your_change_request,Receive your change request
+"key=
+",invitedMembers,Invited members
+"key=
+",manageGrouping,Manage grouping
+"key=
+",groupOwner,Group owner
+"key=
+",addNewMember,Add new member
+"key=
+",requestToJoin,Request to join
+"key=
+",detailButton_addNewMember,"Add new member as group owner, first capture new member's QR code, then show your group's info QR to new member."
+"key=
+",detailButton_requestToJoin,"Join to new group, first show your QR to group owner, then capture group's QR."
+"key=
+",aboutThisApp,About this app
+"key=
+",help,Help
+"key=
+",terms,Terms
+"key=
+",privacyPolicy,Privacy policy
+"key=
+",cancel,Cancel
+"key=
+",skip,Skip
+"key=
+",delete,Delete
+"key=
+",undo,Undo
+"key=
+",share,Share
+"key=
+",msg_necessary_name,Please set name for saving
+"key=
+",msg_saving_data,Saving new data...
+"key=
+",msg_mission_completed,Mission completed!!
+"key=
+",msg_link_carted_foods,Please buy this foods.
+"key=
+",msg_link_in_fridge_foods,Please check in-fridge foods.
+"key=
+",msg_change_displayname,Please input new display name
+"key=
+",msg_change_email,Please input new Email
+"key=
+",msg_remove_joining_info,Leave from group? Sharing information will be removed & please re-setup if you join to other group again
+"key=
+",msg_delete_account,"This operation can not be undone. If you continue it, please input your email"
+"key=
+",requiresRecentLogin,Your login is too old. Please login again.
+"key=
+",msg_scan_barcode,Scan barcode
+"key=
+",msg_show_qr_to_owner,Show this QR to group owner
+"key=
+",msg_show_qr_to_member,Show this QR to new member
+"key=
+",failed_generate_qr,Failed to generate QR
+"key=
+",failed_of_limit_capacity,Failed to update because your capacity has been limited. Please delete unnecessary old data then try again.
+"key=
+",failed_save_photo,Failed save photo
+"key=
+",connected_to_database,Connected to database
+"key=
+",disconnected_network,Disconnect network
+"key=
+",ticket,Ticket
+"key=
+",rewared,Get ticket by reward
+"key=
+",footer_reward,"In free using, you need to register data by ticket. \nYou can get ticket after watched ad as reward."
+"key=
+",please_wait,Please wait...
+"key=
+",current_ticket,Current ticket
+"key=
+",purchase,Purchase
+"key=
+",unlockAd,Unlock Ad
+"key=
+",unlockPremium,Premium
+"key=
+",subscriptionBasic,Subscription
+"key=
+",restore,Restore purchase
+"key=
+",footer_unlockAd,"Unlock ads, become to use without tickets."
+"key=
+",footer_unlockPremium,"Unlock ads, become to use without tickets. \nAnd your limit of item counts will be upgrade to %d. \nDefault limit is %d."
+"key=
+",footer_subscriptionBasic,"This product be Unlock ads, become to use without tickets, and your limit of item counts will be upgrade to %d. \nDefault limit is %d."
+"key=
+",footer_restore,"Will be restore your purchase \""at iOS\"". \nCannot restore any other platform."
